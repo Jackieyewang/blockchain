@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class Home extends Component{
+export default class house extends Component{
     render(){
         return (
             <div id="LoginUser">
