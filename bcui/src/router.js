@@ -3,6 +3,7 @@ import {HashRouter,Route,Switch} from 'react-router-dom';
 import DefaultLayout from './layouts/DefaultLayout/DefaultLayout';
 import LoginUser from './routes/LoginUser/LoginUser';
 import Register from './routes/Register/Register';
+
 export default class RouterWrap extends Component{
     render(){
         return (

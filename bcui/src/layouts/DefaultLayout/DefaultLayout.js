@@ -5,6 +5,11 @@ import { Route, Link } from 'react-router-dom';
 import Home from '../../routes/Home/Home.js';
 import Publish from '../../routes/Publish/Publish.js';
 import Account from '../../routes/Account/Account.js';
+import Article1 from '../../routes/Articles/article1.js';
+import Article2 from '../../routes/Articles/article2.js';
+import Article3 from '../../routes/Articles/article3.js';
+import Article4 from '../../routes/Articles/article4.js';
+import Article5 from '../../routes/Articles/article5.js';
 
 const { Header, Content, Footer } = Layout;
 
@@ -43,19 +48,12 @@ export default class DefaultLayout extends Component{
                         <Route path={this.props.match.url+'/'} component={Home} exact/>
                         <Route path={this.props.match.url+'/publish'} component={Publish} />
                         <Route path={this.props.match.url+'/account'} component={Account} />
-                        <br /><br />
-                        Really
-                        <br />...<br />...<br />...<br />
-                        long
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />
-                        content
-                        </div>
+                        <Route path={this.props.match.url+'/article/1'} component={Article1} />
+                        <Route path={this.props.match.url+'/article/2'} component={Article2} />
+                        <Route path={this.props.match.url+'/article/3'} component={Article3} />
+                        <Route path={this.props.match.url+'/article/4'} component={Article4} />
+                        <Route path={this.props.match.url+'/article/5'} component={Article5} />
+                    </div>
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>s
                     Ant Design ©2018 Created by CJK
