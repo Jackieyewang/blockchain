@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-export default class Home extends Component{
+export default class LoginUser extends Component{
     render(){
         return (
             <div id="LoginUser">
-                社区首页
+                LoginUser
             </div>
         )
     }

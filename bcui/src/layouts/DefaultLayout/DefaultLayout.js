@@ -36,6 +36,7 @@ export default class DefaultLayout extends Component{
                         <Menu.Item key="3">
                             <Link  to="/home/account">个人信息</Link>
                         </Menu.Item>
+                        
                     </Menu>
                 </Header>
                 <Content style={{ padding: '0 50px', marginTop: 64 }}>
@@ -43,18 +44,7 @@ export default class DefaultLayout extends Component{
                         <Route path={this.props.match.url+'/'} component={Home} exact/>
                         <Route path={this.props.match.url+'/publish'} component={Publish} />
                         <Route path={this.props.match.url+'/account'} component={Account} />
-                        <br /><br />
-                        Really
-                        <br />...<br />...<br />...<br />
-                        long
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />...
-                        <br />...<br />...<br />...<br />...<br />...<br />
-                        content
+                
                         </div>
                 </Content>
                 <Footer style={{ textAlign: 'center' }}>s
