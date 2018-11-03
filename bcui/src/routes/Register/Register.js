@@ -201,6 +201,14 @@ class NormalRegisterForm extends React.Component {
                 </FormItem>
                 <FormItem
                     {...formItemLayout}
+                    label="工作单位"
+                >
+                    {getFieldDecorator('office')(
+                        <Input />
+                    )}
+                </FormItem>
+                <FormItem
+                    {...formItemLayout}
                     label="个人简介"
                 >
                     {getFieldDecorator('profile')(

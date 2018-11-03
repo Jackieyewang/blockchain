@@ -21,21 +21,7 @@
 .App-link {
   color: #61dafb;
 }
-#profile {
-  width: 900px;
-  height: 700px;
-  background-color: rgb(163, 177, 87)
-}
-
-#tabperson{
-  width: 900px;
-  height: 700px;
-  background-color: rgb(163, 177, 87)
-}
-#card1{
-  float: top;
-  background-color: rgb(163, 177, 87)
-}
+s
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
