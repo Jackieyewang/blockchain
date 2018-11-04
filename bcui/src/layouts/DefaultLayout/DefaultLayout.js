@@ -9,7 +9,6 @@ import Home from '../../routes/Home/Home.js';
 import Publish from '../../routes/Publish/Publish.js';
 import Account from '../../routes/Account/Account.js';
 import article1 from '../../routes/Articles/article1.js';
-import article2 from '../../routes/Articles/article2.js';
 
 const { Header, Content, Footer } = Layout;
 
