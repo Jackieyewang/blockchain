@@ -1,3 +1,4 @@
 bcui/node_modules/
 bcui/.idea/
 *.DS_Store
+.vscode/
