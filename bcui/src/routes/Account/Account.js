@@ -380,7 +380,7 @@ class EditableTable extends React.Component {
 }
 export default class Account extends Component{
     state = {
-        everse: false,
+        reverse: false,
     }
     handleClick = () => {
         this.setState({ reverse: !this.state.reverse });
@@ -392,11 +392,11 @@ export default class Account extends Component{
             <Col push={1} span={5}>
                 <Card
                     //style={{ width: 300 }}
-                    cover={<img alt="touxiang" src={require('../../image/card.png')} />}
+                    cover={<img alt="avatar" src={require('../../image/card.png')} />}
                     actions={[<Icon type="setting" />, <Icon type="edit" />, <Icon type="ellipsis" />]}
                 >
                     <Meta
-                    avatar={<Avatar src={require('../../image/touxiang.jpg')} />}
+                    avatar={<Avatar src={require('../../image/avatar.jpg')} />}
                     title="未来学院"
                     description="一个去中心化的知识分享社区"
                     />
